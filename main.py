@@ -28,7 +28,7 @@ df = load_excel_file("smt_68.xlsx")  # Replace with your actual file name
 # Check if DataFrame is loaded successfully
 if df is not None:
     # Display header
-    st.markdown("""<h1 style="color:#002b50;">Xiomi FATP FA Cook Book</h1>""", unsafe_allow_html=True)
+    st.markdown("""<h1 style="color:#002b50;">SMT FA Cook Book</h1>""", unsafe_allow_html=True)
 
     # Sidebar with logo and date picker
     st.sidebar.image("images/Padget.png") 
